@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "gliphicons";
+    src: url(../fonts/glyphicons-halflings-regular.ttf);
+}
+body{
+    font-family: '微软雅黑', serif,gliphicons;
+    color: #444;
+    background-color: #F1F2F3;
+    font-size: 0.65em;
+}
+body,input,ul,li,a,img {
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
+header{
+    width: 100vw;
+    height: 80px;
+    background-color: #FFF;
+    border-bottom: 1px solid #D4D5D6;
+    box-shadow: 0 0 10px 5px #ECEDEE;
+}
+header .inner{
+    width: 80vw;
+    height: 100%;
+    display: flex;/*弹性盒子*/
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    width: 99px;
+    height: 45px;
+    background-image: url("../images/sprite.png");
+}
+.category-filter{
+    width: 87px;
+    height: 34px;
+    border: 1px solid #E1E1E1;
+    margin-left: 1.2vw;
+}
+.category-filter .icon:before{
+    content: "\e114";
+}
